@@ -23,7 +23,6 @@ print(f"Hasil Pembagian {a} / {b} = {pembagian}")
 print(f"Hasil perpangkatan {a} ** {b} = {perpangkatan}")
 print(f"Hasil pembagian_bulat {a} // {b} = {pembagian_bulat}")
 
-
 #Operator Assignment
 
 a += 4  #12
@@ -34,3 +33,36 @@ a /= 4 #70.0
 a //= 6 #11.0
 a %= 4 #3.0
 print(a)
+
+#Operator perbandingan
+
+a = 20
+b = 10
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+#Operator Logika AND
+#1
+a = 10
+b = 5
+opAND1 = a >= b and a != b
+#2
+c = 15
+d = 20
+opAND2 = c < d and d > 20
+#3 
+e = 30
+f = 15
+opAND3 = e > f and f <=15
+#4
+g = 8
+h = 12
+opAND4 = g > h and g != h 
+print(opAND1)
+print(opAND2)
+print(opAND3)
+print(opAND4)
